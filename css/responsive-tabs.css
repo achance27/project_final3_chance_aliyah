@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'Engebrechtre';
+  src: url('../fonts/engebrechtre-expanded-bold.ttf')
+	format('truetype');
+}
+/* Colors
+blue: #0c3f6a
+brown: #ab5323
+gray: #aba293
+yellow: #f5da91
+light blue: #b0cee8
+*/
 .r-tabs .r-tabs-nav {
     margin: 0;
     padding: 0;
@@ -22,12 +34,14 @@
 .r-tabs {
 	position: relative;
 	background-color: #0c3f6a;
-	border-top: 1px solid #0c3f6a;
-	border-right: 1px solid #0c3f6a;
-	border-left: 1px solid #0c3f6a;
-	border-bottom: 4px solid #0c3f6a;
+	border-top: 10px solid #0c3f6a;
+	border-right: 12px solid #0c3f6a;
+	border-left: 12px solid #0c3f6a;
+	border-bottom: 10px solid #0c3f6a;
 	border-radius: 4px;
 	width: 100%;
+	margin-left: -14px;
+	margin-top: 70px;
 }
 /* Tab element */
 .r-tabs .r-tabs-nav .r-tabs-tab {
@@ -39,9 +53,9 @@
 	display: inline-block;
 	padding: 10px 12px;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 1.1rem;
 	font-weight: bold;
-	color: #fff;
+	color: #f5da91;
 }
 /* Disabled tab */
 .r-tabs .r-tabs-nav .r-tabs-state-disabled {
@@ -62,18 +76,21 @@
 	border-bottom-right-radius: 4px;
 	border-bottom-left-radius: 4px;
 }
+
+/* ACCORDIAN */
 /* Accordion anchor */
 .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
 	display: block;
 	padding: 10px;
 	background-color: #0c3f6a;
-	color: #fff;
+	color: #f5da91;
 	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
-	font-size: 14px;
+	font-size: 1rem;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
+	font-family: 'Engebrechtre', sans-serif;
 }
 /* Active accordion anchor */
 .r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
@@ -93,7 +110,7 @@ button {
 	padding: 10px 20px;
 	line-height: 100%;
 	color: #fff;
-	font-size: 14px;
+	font-size: 1.1rem;
 	text-align: center;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	vertical-align: middle;
@@ -114,8 +131,6 @@ button {
 	padding: 10px 20px;
 	width: 300px;
 	line-height: 100%;
-	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	font-size: 14px;
 	color: #0c3f6a;
 	border: 2px solid #00ab94;
 		-webkit-border-radius: 3px;
@@ -126,8 +141,10 @@ button {
 }
 
 /* Accordion responsive breakpoint */
-@media (min-width: 400px) {
-
+@media (min-width: 500px) {
+	.r-tabs {
+		width: 100%;;
+	}
 }
 @media (max-width: 768px) {
   .r-tabs .r-tabs-nav {
@@ -136,4 +153,15 @@ button {
   .r-tabs .r-tabs-accordion-title {
         display: block;
     }
+}
+@media (min-width: 920px) {
+	.r-tabs {
+		width: 143%;;
+		margin-left: -21.5%;
+	}
+}
+@media (min-width: 1020px) {
+	.r-tabs {
+		margin-top: 0px;
+	}
 }

@@ -2,7 +2,7 @@
 # Project Final: Part 2
 
 ## Introduction
-Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffee, tea, hot chocolate and small snacks from around the world! 
+Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffee, tea, hot chocolate and small snacks from around the world!
 
 ## Links
 * [GitHub](https://github.com/achance27/project_final2_chance_aliyah)
@@ -10,9 +10,13 @@ Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffe
 * [Validator](https://validator.w3.org/unicorn/check?ucn_uri=aliyahchance.com%2Fproject_final2_chance_aliyah%2F&ucn_lang=en&ucn_task=conformance#)
 * [Outline](https://gsnedders.html5.org/outliner/process.py)
 
+
+
 ## Resources
 * [Biolerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169)
-	* For building a stronger outline, yet still keeping the page visually attractive. 
+	* For building a stronger outline, yet still keeping the page visually attractive.
+
+[](https://github.com/jellekralt/Responsive-Tabs)
 
 ## Deductions
 I reviewed the list of deductions for this project and in the syllabus.
