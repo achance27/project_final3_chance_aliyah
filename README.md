@@ -19,7 +19,6 @@ Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffe
 [](https://github.com/jellekralt/Responsive-Tabs)
 
 [Coffee Clip](https://www.videvo.net/video/coffee-cup/421/)
-[Page Transitions](https://www.abeautifulsite.net/a-clean-fade-in-effect-for-webpages)
 
 ## Deductions
 I reviewed the list of deductions for this project and in the syllabus.
