@@ -16,9 +16,11 @@ Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffe
 * [Biolerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169)
 	* For building a stronger outline, yet still keeping the page visually attractive.
 
-[](https://github.com/jellekralt/Responsive-Tabs)
+[Tabs](https://github.com/jellekralt/Responsive-Tabs)
 
 [Coffee Clip](https://www.videvo.net/video/coffee-cup/421/)
+[Text Rotator](https://github.com/peachananr/simple-text-rotator)
+[Background Video](https://github.com/BGStock/jquery-background-video)
 
 ## Deductions
 I reviewed the list of deductions for this project and in the syllabus.

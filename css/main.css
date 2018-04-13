@@ -55,13 +55,13 @@ nav {
 nav ul {
   list-style: none;
 	float: right;
-	margin-right: 3%;
+	margin-right: 2%;
 	padding-top: 45px;
 }
 nav li {
 	display: inline;
 	font-family: 'Engebrechtre', sans-serif;
-	padding-left: 8px;
+	padding-left: 6px;
 }
 nav a {
 	color: #ab5323;
@@ -164,11 +164,22 @@ footer a {
 	position: absolute;
 }
 
+/* INTRO page */
+#greeting {
+	margin-left: 5%;
+}
+#enter {
+	margin-left: 10%;
+}
+#enter {
+	background-color: #fff;
+	padding: 10px;
+}
 /* MENU page */
 #menu h3 {
 	color: #ab5323;
 	font-family: 'Alex Brush', cursive;
-	font-size: 3.2rem;
+	font-size: 3rem;
 	margin: 0;
 	text-align: center;
 }
@@ -182,7 +193,7 @@ footer a {
 	padding: 0 0 15px 0;
 }
 .items, #menu p {
-	margin-left: 25px;
+	margin-left: 15px;
 }
 #menu .tabs li {
 	font-family: 'Engebrechtre', sans-serif;
@@ -199,6 +210,9 @@ footer a {
 		margin-right: 5%;
 		padding-top: 45px;
 	}
+	.items, #menu p {
+		margin-left: 25px;
+	}
 }
 @media (min-width: 550px) {
 	nav a {
@@ -208,6 +222,9 @@ footer a {
 		width: 200px;
 		padding-top: 5px;
 		margin-bottom: 1%;
+	}
+	.items, #menu p {
+		margin-left: 50px;
 	}
 }
 @media (min-width: 680px) {
@@ -226,11 +243,17 @@ footer a {
 	p {
 		font-size: 1.2rem;
 	}
+	.items, #menu p {
+		margin-left: 50%l;
+	}
 }
 @media (min-width: 790px) {
 	#menu h3 {
 		margin-top: 12px;
 		font-size: 3.5rem;
+	}
+	#items {
+		margin-left: 30%;
 	}
 }
 @media (min-width: 920px) {
@@ -254,7 +277,7 @@ footer a {
 		margin-left: 0;
 	}
 	.items {
-		margin-left: 20%;
+		margin-left: 22%;
 	}
 	#menu p {
 		margin-left: 10%;
