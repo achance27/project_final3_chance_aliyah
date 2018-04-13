@@ -19,6 +19,14 @@ body {
 	background-repeat: no-repeat;
   background-attachment: fixed;
 }
+div {
+    opacity: 1;
+    transition: 3s opacity;
+}
+div.fade-out {
+    opacity: 0;
+    transition: none;
+}
 #container, #container2 {
 	padding: 0;
 	clear: left;
@@ -126,18 +134,34 @@ button:hover {
 }
 /* FOOTER */
 footer {
-    background-color: #aba293;
-    width: 100%;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		margin-bottom: -50px;
-		position: fixed;
+background-color: #aba293;
+width: 100%;
+text-align: center;
 }
 footer p {
 	margin: 2%;
-	text-align: center;
 	color: #fff;
+	font-size: 0.8rem;
+}
+footer li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+}
+footer a {
+	text-decoration: none;
+	color: #000;
+	font-size: 0.92rem;
+}
+#specialpg {
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin-bottom: -50px;
+	position: fixed;
+}
+.normalpg {
+	position: absolute;
 }
 
 /* MENU page */
@@ -245,9 +269,17 @@ footer p {
 	}
 	#logo {
 		width: 250px;
+		margin-left: 12%;
+	}
+	nav {
+		margin-right: 10%;
 	}
 	nav a {
 		font-size: 1.3rem;
+	}
+	#container, #container2 {
+		width: 70%;
+		margin-left: 15%;
 	}
 	.items {
 		margin-left: 28%;

@@ -7,10 +7,15 @@
     <title>Koffee + Te</title>
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/simpletextrotator.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
 </head>
 <body>
+	<!-- <div style="width: 1000px; height: 500px;"
+  data-vide-bg="path/to/video" data-vide-options="loop: false, muted: false, position: 0% 0%">
+</div>
+-->
 	<header>
 		<h1 class="visuallyhidden">Koffee and Te
 		</h1>
@@ -21,14 +26,14 @@
 				<ul>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Menu</a></li>
-					<li><a href="#">Events</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
-		<div id="container">
+		<div id="container" class="fade-out">
 			<main>
 				<article>
-					<h2>About Us</h2>
+					<h2 class="rotate">Welcome, About Us</h2>
 						<div id="history">
 							<h3>History</h3>
 								<p>Barista, at <a href="#">blue mountain</a>, est mocha white caramelization white arabica doppio turkish. Siphon breve strong cup et plunger pot café au lait. Caramelization galão, blue mountain, half and half mazagran mug crema acerbic strong. Half and half, arabica sit, grounds robust arabica medium, viennese robust ristretto filter milk. Con panna, whipped wings, roast siphon cultivar sweet. Irish medium french press robusta saucer.
@@ -49,10 +54,17 @@
 				</article>
 			</main>
 	</div>
-	<footer>
-		 <p>Copyright (c) 2018 All rights reserved.</p>
+	<footer class="normalpg">
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Careers</a></li>
+		</ul>
+		<p>Copyright (c) 2018 All rights reserved.</p>
 	</footer>
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.vide.min.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
