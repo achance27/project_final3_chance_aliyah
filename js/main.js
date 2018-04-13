@@ -1,57 +1,25 @@
-// 2 jQuery Plugins
-
-/*$(".rotate").textrotator({
-  animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-  speed: 2000 // How many milliseconds until the next word show.
+// jQuery Plugins
+// Intro Page Languages Greeting
+$('.rotate').textrotator({
+  animation: 'flip', // Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  separator: ',', // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 5000 // How many milliseconds until the next word show.
 });
 
-$('#myBlock').vide('path/to/video');
-$('#myBlock').vide('path/to/video', {
-...options...
-});
-
-$('#myBlock').vide( {
-    mp4: img/coffee-clip.mp4,
-    webm: path/to/video2,
-    ogv: path/to/video3,
-    poster: path/to/poster
-}, {
-...options...
-});
-
-$('#myBlock').vide('extended path as a string', 'options as a string'
-);
-
-document.body.className += 'fade-out';
-$(function() {
-    $('body').removeClass('fade-out');
-});
-
-$(document).ready(function(){
-    $('.background-video').bgVideo();
-});
-*/
-
-$(".rotate").textrotator({
-  animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-  speed: 2000 // How many milliseconds until the next word show.
-});
-
-
+//
 // Intro Background Video
 $('.jquery-background-video').bgVideo( {
     fullScreen: true,
     fadeIn: 2000,
 });
 
-
+//
 // Menu Page Tabs & Accordian
 $('#responsiveTabsDemo').responsiveTabs( {
     startCollapsed: 'accordion'
 });
 
+//
 // Custom JavaScript
 /*document.getElementsByTagName('h3')[0].addEventListener('mouseover', function () {
     var drinks = document.createElement('p');
@@ -60,11 +28,7 @@ $('#responsiveTabsDemo').responsiveTabs( {
 });
 */
 
-// To attach Backstrech as the body's background
-// $.backstretch('img/coffee-clip.mp4');
-
-
-
+//
 // Custom jQuery
 //Fade out Hot and fade in words "or Cold?" and then fade in "Hot or Cold?"
 var i = 1;
@@ -79,6 +43,7 @@ $('#hot').mouseout(function () {
     $('h3').fadeIn('90000').html('Hot or Cold?');
 });
 
+//
 // Container Fade Transition
 $('div').className += 'fade-out';
 $(function () {
