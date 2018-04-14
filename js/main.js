@@ -7,7 +7,7 @@ $(function () {
 
 // jQuery Plugins No. 3
 // Menu Page Tabs & Accordian
-$('#responsiveTabsDemo').responsiveTabs( {
+$('#responsiveTabsDemo').responsiveTabs({
     startCollapsed: 'accordion'
 });
 
@@ -15,11 +15,12 @@ $('#responsiveTabsDemo').responsiveTabs( {
 //
 // Custom JavaScript
 // Switch location image to have a hover-like effect
-document.getElementById('pin').addEventListener('mouseover', function () {
+var pin = document.getElementById('pin');
+pin.addEventListener('mouseover', function () {
     pin.src = 'img/location-hover.png';
 });
 
-document.getElementById('pin').addEventListener('mouseout', function () {
+pin.addEventListener('mouseout', function () {
     pin.src = 'img/location.png';
 });
 
