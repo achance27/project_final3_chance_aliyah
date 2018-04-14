@@ -21,7 +21,7 @@ body {
 }
 div {
     opacity: 1;
-    transition: 3s opacity;
+    transition: 4s opacity;
 }
 div.fade-out {
     opacity: 0;
