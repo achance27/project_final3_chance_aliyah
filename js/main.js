@@ -21,6 +21,50 @@ $('#responsiveTabsDemo').responsiveTabs( {
 });
 */
 
+/*
+
+document.getElementById('yes').addEventListener('click', function () {
+    var learn = document.createElement('article');
+    learn.innerHTML = '<p>click <a href="http://www.dumblaws.com/"> here<a> for more laws!</p><img src="./img/nologic.jpg" alt="no logic meme" id="logic">';
+    document.getElementsByTagName('h2')[3].appendChild(learn);
+});
+
+
+var navSocialMedia = document.getElementById('pin');
+
+navSocialMedia.addEventListener('onmouseover', function () {
+
+});
+
+document.getElementById('pin').setAttribute('src', 'img/location-hover.png';
+
+
+var image = document.getElementById('pin');
+image.src = 'img/location-hover.png'
+
+
+document.getElementById('pin').addEventListener('mouseover', function () {
+    var navImage = document.getElementById('pin');
+})
+
+
+var navImage = document.getElementById('pin');
+pin.addEventListener('mouseover', function () {
+    pin.src = 'img/location-hover.png';
+});
+
+*/
+
+var navImage = document.getElementById('pin');
+function normal() {
+    pin.src = 'img/location.png'
+}
+function hoverOn() {
+	pin.src = 'img/location-hover.png'
+}
+});
+document.getElementById('pin').addEventListener('mouseover', hoverOn);
+
 ////////////////////////////////////////////////////////////////
 //
 // Custom jQuery No. 2
