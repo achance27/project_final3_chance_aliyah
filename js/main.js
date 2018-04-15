@@ -31,13 +31,23 @@ pin.addEventListener('mouseout', function () {
 var i = 1;
 $('#hot').mouseover(function () {
     if (i === 1) {
-        $('h3').fadeIn('90000').html('Or Cold?');
+        $('#hot').fadeIn('90000').html('Or Cold?');
     }
     i = 2;
 
 });
 $('#hot').mouseout(function () {
-    $('h3').fadeIn('90000').html('Hot or Cold?');
+    $('#hot').fadeIn('90000').html('Hot or Cold?');
+});
+
+// Header changes from "Tea" to ""
+$('#tea').mouseover(function () {
+    $('#tea').fadeIn('90000').html('The Tea');
+});
+
+// Header changes from "Treat yourself!" to "Snacks and Treats"
+$('#bite').mouseover(function () {
+    $('#bite').fadeIn('90000').html('Snacks and Treats');
 });
 
 //Custom jQuery No. 3
