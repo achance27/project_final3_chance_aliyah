@@ -142,6 +142,7 @@ button:hover {
     width: 1px;
     white-space: nowrap; /* 1 */
 }
+
 /* FOOTER */
 footer {
 background-color: #aba293;
@@ -179,7 +180,6 @@ footer a {
 	bottom: 0;
 	margin-bottom: ;
 	position: fixed;
-
 }
 .normalpg {
 	position: absolute;
@@ -209,6 +209,14 @@ footer a {
 #intro a:hover {
 	background-color: #0c3f6a;
 	color: #b0cee8;
+}
+
+/* ABOUT page */
+#info li {
+	font-family: 'Quicksand', sans-serif;
+	color: #0c3f6a;
+	list-style-type: none;
+	line-height: 125%;
 }
 
 /* MENU page */
@@ -282,6 +290,9 @@ footer a {
 	p {
 		font-size: 1.2rem;
 	}
+	#intro li {
+		font-size: 1.2rem;
+	}
 	.items, #menu p {
 		margin-left: 50%l;
 	}
@@ -335,6 +346,13 @@ footer a {
 	}
 	#enter {
 		margin-left: 11%;
+	}
+	#info li {
+		padding: 5px;
+		margin-left: 0;
+	}
+	#info ul {
+		margin-left: -45px;
 	}
 }
 @media (min-width: 1024px) {
