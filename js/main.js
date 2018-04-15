@@ -31,13 +31,13 @@ pin.addEventListener('mouseout', function () {
 var i = 1;
 $('#hot').mouseover(function () {
     if (i === 1) {
-        $('#hot').fadeIn('90000').html('Or Cold?');
+        $('#hot').fadeIn('90000').html('Or Iced?');
     }
     i = 2;
 
 });
 $('#hot').mouseout(function () {
-    $('#hot').fadeIn('90000').html('Hot or Cold?');
+    $('#hot').fadeIn('90000').html('Hot or Iced?');
 });
 
 // Header changes from "We won't spill . . ." to "The Tea"

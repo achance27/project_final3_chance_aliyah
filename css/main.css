@@ -212,7 +212,7 @@ footer a {
 }
 
 /* ABOUT page */
-#info li {
+#info li, #awards li {
 	font-family: 'Quicksand', sans-serif;
 	color: #0c3f6a;
 	list-style-type: none;
@@ -261,6 +261,9 @@ footer a {
 @media (min-width: 550px) {
 	nav a {
 		font-size: 1.2rem;
+	}
+	header {
+		padding-bottom: 110px;
 	}
 	#logo {
 		width: 210px;
@@ -347,11 +350,11 @@ footer a {
 	#enter {
 		margin-left: 11%;
 	}
-	#info li {
+	#info li, #awards li {
 		padding: 5px;
 		margin-left: 0;
 	}
-	#info ul {
+	#info ul, #awards ul {
 		margin-left: -45px;
 	}
 }
