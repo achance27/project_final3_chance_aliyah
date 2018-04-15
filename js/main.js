@@ -40,7 +40,7 @@ $('#hot').mouseout(function () {
     $('#hot').fadeIn('90000').html('Hot or Cold?');
 });
 
-// Header changes from "Tea" to ""
+// Header changes from "We won't spill . . ." to "The Tea"
 $('#tea').mouseover(function () {
     $('#tea').fadeIn('90000').html('The Tea');
 });

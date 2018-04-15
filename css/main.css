@@ -43,7 +43,7 @@ div.fade-out {
 
 /* HEADER & NAV */
 #logo {
-	width: 130px;
+	width: 135px;
 	float: left;
 	padding-top: 10px;
 }
@@ -90,7 +90,7 @@ h2 {
 	font-size: 5rem;
 	color: #ab5323;
 	text-shadow: 2px 2px 4px #E3E3E3;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 h3 {
 	font-family: 'Engebrechtre', sans-serif;
@@ -188,13 +188,27 @@ footer a {
 /* INTRO page */
 #greeting {
 	margin-left: 5%;
+	color: #0c3f6a;
+	font-size: 5.4rem;
+}
+#intro {
+	padding-top: 230px;
 }
 #enter {
-	margin-left: 10%;
-}
-#enter {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.1rem;
+	color: #ab5323;
+	text-decoration: none;
 	background-color: #fff;
-	padding: 10px;
+	padding: 8px;
+	margin-left: 6%;
+	border-radius: 4px;
+	-webkit-box-shadow: 1px 1px 4px 1px #9E5B28;
+		box-shadow: 1px 1px 4px 1px #9E5B28;
+}
+#intro a:hover {
+	background-color: #0c3f6a;
+	color: #b0cee8;
 }
 
 /* MENU page */
@@ -241,12 +255,15 @@ footer a {
 		font-size: 1.2rem;
 	}
 	#logo {
-		width: 200px;
+		width: 210px;
 		padding-top: 5px;
 		margin-bottom: 1%;
 	}
 	.items, #menu p {
 		margin-left: 50px;
+	}
+	#greeting {
+		font-size: 6rem;
 	}
 }
 @media (min-width: 680px) {
@@ -291,7 +308,7 @@ footer a {
 		margin-right: 8%;
 	}
 	h2 {
-		padding-top: 30px;
+		padding-top: 50px;
 		font-size: 5.2rem;
 	}
 	#images img {
@@ -307,6 +324,17 @@ footer a {
 	#menu h3 {
 		margin-top: 20px;
 		font-size: 3.7rem;
+	}
+	#intro {
+		padding-top: 245px;
+	}
+	#greeting {
+		padding-top: 0px;
+		font-size: 7.2rem;
+		margin-left: 10%;
+	}
+	#enter {
+		margin-left: 11%;
 	}
 }
 @media (min-width: 1024px) {
@@ -327,7 +355,17 @@ footer a {
 		width: 70%;
 		margin-left: 15%;
 	}
+	h2 {
+		padding-top: 0px;
+	}
 	.items {
 		margin-left: 28%;
+	}
+	#intro {
+		padding-top: 290px;
+	}
+	#greeting {
+		padding-top: 20px;
+		font-size: 8.6rem;
 	}
 }
