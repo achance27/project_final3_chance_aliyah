@@ -211,12 +211,21 @@ footer a {
 	color: #b0cee8;
 }
 
+/* HOME page */
+.home-pic {
+	width: 100%;
+}
+
 /* ABOUT page */
 #info li, #awards li {
 	font-family: 'Quicksand', sans-serif;
 	color: #0c3f6a;
 	list-style-type: none;
 	line-height: 125%;
+	margin-left: -12%;
+}
+.about-pics {
+	width: 100%;
 }
 
 /* MENU page */
@@ -256,6 +265,14 @@ footer a {
 	}
 	.items, #menu p {
 		margin-left: 25px;
+	}
+	#info li, #awards li {
+		margin-left: -10%;
+	}
+}
+@media (min-width: 500px) {
+	#info li, #awards li {
+		margin-left: -8%;
 	}
 }
 @media (min-width: 550px) {
