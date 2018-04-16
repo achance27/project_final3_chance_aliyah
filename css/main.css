@@ -290,7 +290,7 @@ footer a {
 	nav li {
 		padding-left: 15px;
 	}
-	p {
+	p, #menu li {
 		font-size: 1.2rem;
 	}
 	#intro li {
@@ -327,13 +327,12 @@ footer a {
 	}
 	#images img {
 		width: 45%;
-		margin-left: 0;
 	}
 	.items {
-		margin-left: 22%;
+		margin-left: 15%;
 	}
 	#menu p {
-		margin-left: 10%;
+		margin-left: 8%;
 	}
 	#menu h3 {
 		margin-top: 20px;
@@ -380,7 +379,8 @@ footer a {
 		padding-top: 0px;
 	}
 	.items {
-		margin-left: 28%;
+		margin-left: 12%;
+		width: 70%;
 	}
 	#intro {
 		padding-top: 290px;
