@@ -111,7 +111,7 @@ p a {
 p a:hover {
 	color: #fff;
 }
-#images img, #specials img, .menu-imgs img {
+#images img, #specials img, .menu-imgs img, #share img {
 	-webkit-box-shadow: 2px 2px 5px 2px #DEC05A;
 		box-shadow: 2px 2px 5px 2px #DEC05A;
 }
@@ -232,7 +232,7 @@ footer a {
 #mac {
 	margin-bottom: 35px;
 }
-#specials img {
+#specials img, #share img {
 	width: 100%;
 }
 
@@ -354,7 +354,7 @@ iframe {
 	nav li {
 		padding-left: 15px;
 	}
-	p, #menu li, #awards li, #hours li, #contact li {
+	p, #menu li, #awards li, #hours li, #contact li, #location li {
 		font-size: 1.2rem;
 	}
 	#intro li {
