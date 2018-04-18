@@ -1,14 +1,14 @@
 
-# Project Final: Part 2
+# Project Final: Part 3
 
 ## Introduction
-Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."* We aim to bring coffee, tea, hot chocolate and small snacks from around the world!
+Welcome to **Koffee + Te**, pronounced *"Coffee and Tea."*  We aim to open your palette, with every bite a small glimpse of the world out there. With our coffee, tea, hot chocolates, and snacks from around the world we will excite your taste buds!
 
 ## Links
-* [GitHub](https://github.com/achance27/project_final2_chance_aliyah)
-* [Webpage](http://aliyahchance.com/project_final2_chance_aliyah/)
-* [Validator](https://validator.w3.org/unicorn/check?ucn_uri=aliyahchance.com%2Fproject_final2_chance_aliyah%2F&ucn_lang=en&ucn_task=conformance#)
-* [Outline](https://gsnedders.html5.org/outliner/process.py)
+* [GitHub](https://github.com/achance27/project_final3_chance_aliyah)
+* [Webpage](http://aliyahchance.com/project_final3_chance_aliyah/)
+* [Validator]()
+* [Outline]()
 
 
 
