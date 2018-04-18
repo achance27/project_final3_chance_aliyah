@@ -110,7 +110,7 @@ p a {
 p a:hover {
 	color: #fff;
 }
-#images img, #specials img, .menu-imgs img, #share img {
+#images img, #specials img, .menu-imgs img, #share img, .about {
 	-webkit-box-shadow: 2px 2px 5px 2px #DEC05A;
 		box-shadow: 2px 2px 5px 2px #DEC05A;
 }
@@ -170,7 +170,6 @@ footer a {
 }
 .social {
 	max-width: 18px;
-	padding: ;
 	margin-bottom: -5px;
 }
 #specialpg {
@@ -243,13 +242,12 @@ footer a {
 #info li {
 	list-style-type: none;
 }
-.about-pics {
+.about {
 	width: 100%;
 }
 iframe {
 	width: 100%;
 	height: 450px;
-	frameborder: 0;
 	-webkit-box-shadow: 2px 2px 5px 2px #DEC05A;
 		box-shadow: 2px 2px 5px 2px #DEC05A;
 }
@@ -290,10 +288,10 @@ iframe {
 @media (min-width: 400px) {
 	nav a {
 		font-size: 1rem;
-		padding: 5px;
+		padding: 3px;
 	}
 	nav ul {
-		margin-right: 5%;
+		margin-right: 10px;
 		padding-top: 45px;
 	}
 	.items, #menu dd {
@@ -317,6 +315,9 @@ iframe {
 	#img1, #img2 {
 		margin-left: 0%;
 		margin-right: -20px;
+	}
+	nav a {
+		padding: 5px;
 	}
 }
 @media (min-width: 500px) {
@@ -351,7 +352,7 @@ iframe {
 		margin-left: 10%;
 	}
 	nav {
-		margin-right: 12%;
+		margin-right: 10px;
 	}
 	nav li {
 		padding-left: 15px;
@@ -363,7 +364,7 @@ iframe {
 		font-size: 1.2rem;
 	}
 	.items, #menu dd {
-		margin-left: 50%l;
+		margin-left: 10%;
 	}
 }
 @media (min-width: 790px) {
@@ -391,7 +392,7 @@ iframe {
 		padding-bottom: 10px;
 	}
 	nav {
-		margin-right: 8%;
+		margin-right: 5%;
 	}
 	h2 {
 		padding-top: 55px;
@@ -436,7 +437,7 @@ iframe {
 		margin-left: 12%;
 	}
 	nav {
-		margin-right: 13%;
+		margin-right: 10%;
 	}
 	nav a {
 		font-size: 1.3rem;
