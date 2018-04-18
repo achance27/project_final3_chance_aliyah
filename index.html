@@ -7,74 +7,34 @@
     <title>Koffee + Te</title>
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/simpletextrotator.css">
+		<link rel="stylesheet" href="css/jquery.background-video.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
 </head>
-<body>
-	<header>
-		<h1 class="visuallyhidden">Koffee and Te
-		</h1>
-			<a href="index.html"><img src="./img/koffee-te-logo.png" alt="Koffee and Te" id="logo"></a>
-			<nav>
-				<h2 class="visuallyhidden">Navigation
-				</h2>
-				<ul>
-					<li><a href="about.html">About</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="about.html#contact">Contact</a></li>
-					<li><a href="about.html#location"><img src="img/location.png" alt="location" id="pin"></a></li>
-				</ul>
-			</nav>
-		</header>
-		<div id="container" class="fade-out">
-			<main>
-				<article id="images">
-					<h2>Welcome</h2>
-						<div id="img1">
-							<img src="img/flatwhite.jpg" alt="flat white coffee">
-							<img src="img/thai-iced-tea.jpg" alt="thai iced tea">
-						</div>
-						<div id="">
-							<img src="img/croissant.png" alt="iced coffee" class="solo">
-						</div>
-						<div id="img2">
-							<img src="img/iced-coffee.jpg" alt="iced coffee">
-							<img src="img/matcha-latte.jpg" alt="matcha tea">
-						</div>
-						<div id="">
-							<img src="img/macarons.jpg" alt="macarons" class="solo" id="mac">
-						</div>
-					</article>
-				<article id="specials">
-					<h2>This Month's Specials</h2>
-						<h3>Mexican Hot Chocolate</h3>
-							<img src="img/mexican-hot-chocolate.jpg" alt="Mexican hot chocolate" class="specials-pic">
-							<p>This isn't your childhood Nestle hot chocolate. Welcome semi-bitter, cinnamon flavored chocolate created with cocoa, cinnamon, and chiles. This beverage's history goes as far back as the Mayans and Aztecs.</p>
-						<h3>Noon Chai</h3>
-							<img src="img/pink-tea.png" alt="Pakistan Noon Ta" class="specials-pic">
-							<p>Found in Pakistan, this element of Kashmiri culture is a special blend of tea that includes pistachios, almonds, salt, milk and spices like cardamom, sinnamon, and star anise. Normally served on special occasions so get it before it leaves our menu!</p>
-				</article>
-				<article id="share">
-					<h2>Share Koffee + Te</h2>
-						<img src="img/cheers.jpeg" alt="coffee cheers" class="specials-pic">
-						<p id="gift">Have any birthday's coming up but not sure what to get them? Any co-workers or other aquataintances who have events but not sure what to get them? Get them a Koffe + Te gift card! More than just coffee, treat them to an experience unlike any other!</p>
-						<button type="button" class="button">Learn More</button>
-				</article>
-			</main>
-	</div>
-	<footer class="normalpg">
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href="about.html#contact">Contact</a></li>
-			<li><a href="#">Careers</a></li>
-			<li><a href="#">Subscribe</a></li>
-			<li><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook page" class="social"></a></li>
-			<li><a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram page" class="social"></a></li>
-		</ul>
-		<p>Copyright 2018 All rights reserved.</p>
-	</footer>
+<body id="intro">
+	<h1 class="visuallyhidden">Koffee and Te
+	</h1>
+		<article>
+			<h2 class="visuallyhidden">Enter Website</h2>
+			<a href="home.html" id="enter">Come In!</a>
+		</article>
+			<div class="video-hero jquery-background-video-wrapper demo-video-wrapper">
+				<video class="intro-video" autoplay muted loop>
+					<source src="video/coffee-clip.mp4" type="video/mp4">
+				  <source src="video/coffee-clip.webm" type="video/webm">
+				  <source src="video/coffee-clip.ogv" type="video/ogg">
+				</video>
+				<div class="video-overlay"></div>
+				<div class="page-width">
+					<div class="video-hero--content">
+						<h2 id="greeting" class="rotate"> Hello, Bonjour, Ni Hao, Bienvenido, Habari</h2>
+				  </div>
+				</div>
+			</div>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.responsive-tabs.min.js"></script>"
-  <script src="js/main.js"></script>
+	<script src="js/jquery.background-video.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/intro.js"></script>
 </body>
 </html>

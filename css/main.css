@@ -49,7 +49,6 @@ div.fade-out {
 }
 header {
 	width: 100%;
-	background-color: ;
 	padding-bottom: 60px;
 }
 nav {
@@ -98,7 +97,7 @@ h3 {
 	font-size: 1.8rem;
 	color: #fff;
 }
-p {
+p, #menu dd {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 	padding-bottom: 50px;
@@ -152,7 +151,6 @@ height: 75px;
 text-align: center;
 }
 footer p {
-	margin: %;
 	color: #fff;
 	font-size: 0.8rem;
 	padding-bottom: 5px;
@@ -179,7 +177,6 @@ footer a {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	margin-bottom: ;
 	position: fixed;
 }
 .normalpg {
@@ -252,6 +249,7 @@ footer a {
 iframe {
 	width: 100%;
 	height: 450px;
+	frameborder: 0;
 	-webkit-box-shadow: 2px 2px 5px 2px #DEC05A;
 		box-shadow: 2px 2px 5px 2px #DEC05A;
 }
@@ -264,19 +262,23 @@ iframe {
 	margin: 10px 0 0 0;
 	text-align: center;
 }
-#menu li {
+#menu dd, #menu dt {
 	font-size: 1rem;
 	padding: 0px;
 	font-family: 'Quicksand', sans-serif;
 	list-style-type: none;
 }
-#menu p {
-	padding: 0 0 15px 0;
+#menu dt {
+	margin-top: 20px;
 }
-.items, #menu p {
+#menu dd {
+	padding: 0 0 15px 0;
+	margin-top: 10px;
+}
+.items, #menu dd {
 	margin-left: 15px;
 }
-#menu .tabs li {
+#menu .tabs dt, #menu .tabs li {
 	font-family: 'Engebrechtre', sans-serif;
 }
 .menu-imgs {
@@ -285,7 +287,7 @@ iframe {
 
 
 /* MEDIA QUERIES */
-@media (min-width: 400px;) {
+@media (min-width: 400px) {
 	nav a {
 		font-size: 1rem;
 		padding: 5px;
@@ -294,7 +296,7 @@ iframe {
 		margin-right: 5%;
 		padding-top: 45px;
 	}
-	.items, #menu p {
+	.items, #menu dd {
 		margin-left: 25px;
 	}
 	#info li, #awards li {
@@ -334,7 +336,7 @@ iframe {
 		padding-top: 5px;
 		margin-bottom: 1%;
 	}
-	.items, #menu p {
+	.items, #menu dd {
 		margin-left: 50px;
 	}
 	#greeting {
@@ -354,13 +356,13 @@ iframe {
 	nav li {
 		padding-left: 15px;
 	}
-	p, #menu li, #awards li, #hours li, #contact li, #location li {
+	p, #menu dt, #menu dd, #awards li, #hours li, #contact li, #location li {
 		font-size: 1.2rem;
 	}
 	#intro li {
 		font-size: 1.2rem;
 	}
-	.items, #menu p {
+	.items, #menu dd {
 		margin-left: 50%l;
 	}
 }
@@ -398,7 +400,7 @@ iframe {
 	.items {
 		margin-left: 15%;
 	}
-	#menu p {
+	#menu dd {
 		margin-left: 8%;
 	}
 	#menu h3 {
@@ -424,9 +426,6 @@ iframe {
 	#info ul, #awards ul {
 		margin-left: -45px;
 	}
-}
-@media (min-width: 1000px) {
-
 }
 @media (min-width: 1024px) {
 	main, #menu {
