@@ -461,3 +461,8 @@ iframe {
 		font-size: 8.6rem;
 	}
 }
+@media (min-width: 1200px) {
+	nav {
+		margin-right: 13%;
+	}
+}
